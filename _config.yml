@@ -1,8 +1,7 @@
 title: Anıl Elakaş Teknoloji
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Teknoloji ve yazılım üzerine yazılarımı paylaştığım blogum.
+  Yazılım geliştirme, back-end ve front-end teknolojileri, Kotlin, JavaScript, React ve daha fazlası.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anilelakas.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -30,6 +29,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+  - jekyll-seo-tag
 
 paginate: 8
 paginate_path: "/page/:num"
