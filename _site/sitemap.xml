@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/anilelakas.github.io/welcome-to-jekyll/</loc>
-<lastmod>2017-04-06T13:32:20+03:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/anilelakas.github.io/conference-on-javascript/</loc>
-<lastmod>2017-09-10T00:00:00+03:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/anilelakas.github.io/10-tips-to-improve-your-workflow/</loc>
 <lastmod>2017-09-12T00:00:00+03:00</lastmod>
 </url>
@@ -21,8 +13,12 @@
 <lastmod>2017-09-12T00:00:00+03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/anilelakas.github.io/how-i-rest-from-work/</loc>
-<lastmod>2017-09-12T13:32:20+03:00</lastmod>
+<loc>http://localhost:4000/anilelakas.github.io/cagri-merkezi-surec/</loc>
+<lastmod>2023-08-17T09:00:20+03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/anilelakas.github.io/akademik-makale/</loc>
+<lastmod>2023-09-10T00:00:00+03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/anilelakas.github.io/</loc>
