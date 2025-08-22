@@ -10,11 +10,11 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Anıl Elakaş # add your name
 author-img: anil-elakas.jpg # add your photo
-about-author: I am a software developer focusing on front-end development. Always hungry to keep learning. # add description
+about-author: I am a software developer focusing on back-end development, front-end development and data science. Always hungry to keep learning. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: anilelakas # add your Github handle
-social-linkedin: anilelakas# add your Linkedin handle
+social-linkedin: anilelakas # add your Linkedin handle
 social-email: anilelakas@hotmail.com.tr # add your Email address
 
 # Disqus
