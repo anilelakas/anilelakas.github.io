@@ -1,7 +1,5 @@
 title: Anıl Elakaş Teknoloji
-description: > # this means to ignore newlines until "baseurl:"
-  Teknoloji ve yazılım üzerine yazılarımı paylaştığım blogum.
-  Yazılım geliştirme, back-end ve front-end teknolojileri, Kotlin, JavaScript, React ve daha fazlası.
+description: Güncel teknoloji trendleri ve yazılım üzerine haftalık blog yazıları. Yazılım geliştirme, back-end ve front-end teknolojileri.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anilelakas.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -10,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Anıl Elakaş # add your name
 author-img: anil-elakas.jpg # add your photo
-about-author: I am a software developer focusing on back-end development, front-end development and data science. Always hungry to keep learning. # add description
+about-author: I am a Senior Software Developer focusing on back-end development, front-end development and data science. Always hungry to keep learning. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: anilelakas # add your Github handle
