@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri - Anıl Elakaş Teknoloji</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri | Anıl Elakaş Teknoloji</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri" />
+<meta name="author" content="Anıl Elakaş" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Günümüzde ödeme alışkanlıklarında önemli bir değişim gözlemlenmektedir. Yüksek miktarda nakit para taşımanın zorluğu, nakit para bulundurmak için Bankamatik’e gitme gerekliliği, giderek yaygınlaşan çevrimiçi alışveriş ve kart ile ödemede taksitlendirme gibi sebeplerden dolayı nakit para yerine ödeme aracı olarak kart kullanımında ciddi bir artış söz konusudur." />
+<meta property="og:description" content="Günümüzde ödeme alışkanlıklarında önemli bir değişim gözlemlenmektedir. Yüksek miktarda nakit para taşımanın zorluğu, nakit para bulundurmak için Bankamatik’e gitme gerekliliği, giderek yaygınlaşan çevrimiçi alışveriş ve kart ile ödemede taksitlendirme gibi sebeplerden dolayı nakit para yerine ödeme aracı olarak kart kullanımında ciddi bir artış söz konusudur." />
+<link rel="canonical" href="http://localhost:4000/anilelakas.github.io/pci-dss-kart/" />
+<meta property="og:url" content="http://localhost:4000/anilelakas.github.io/pci-dss-kart/" />
+<meta property="og:site_name" content="Anıl Elakaş Teknoloji" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-04-15T09:00:20+03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Anıl Elakaş"},"dateModified":"2024-04-15T09:00:20+03:00","datePublished":"2024-04-15T09:00:20+03:00","description":"Günümüzde ödeme alışkanlıklarında önemli bir değişim gözlemlenmektedir. Yüksek miktarda nakit para taşımanın zorluğu, nakit para bulundurmak için Bankamatik’e gitme gerekliliği, giderek yaygınlaşan çevrimiçi alışveriş ve kart ile ödemede taksitlendirme gibi sebeplerden dolayı nakit para yerine ödeme aracı olarak kart kullanımında ciddi bir artış söz konusudur.","headline":"Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/anilelakas.github.io/pci-dss-kart/"},"url":"http://localhost:4000/anilelakas.github.io/pci-dss-kart/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta content="Anıl Elakaş Teknoloji" property="og:site_name">
+  
+    <meta content="Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="Teknoloji ve yazılım üzerine yazılarımı paylaştığım blogum. Yazılım geliştirme, back-end ve front-end teknolojileri, Kotlin, JavaScript, React ve daha fazlası.
+" property="og:description">
+  
+  
+    <meta content="http://localhost:4000/pci-dss-kart/" property="og:url">
+  
+  
+    <meta content="2024-04-15T09:00:20+03:00" property="article:published_time">
+    <meta content="http://localhost:4000/about/" property="article:author">
+  
+  
+    <meta content="http://localhost:4000/anilelakas.github.io/assets/img/pci_dss_gereklilik.jpg" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="Technology" property="article:tag">
+    
+    <meta content="Banking" property="article:tag">
+    
+    <meta content="Payment" property="article:tag">
+    
+    <meta content="Credit Card" property="article:tag">
+    
+    <meta content="PCI DSS" property="article:tag">
+    
+    <meta content="Digital Transformation" property="article:tag">
+    
+    <meta content="Ödeme yöntemleri" property="article:tag">
+    
+    <meta content="Kredi kartı" property="article:tag">
+    
+    <meta content="Bankacılık" property="article:tag">
+    
+    <meta content="Finans" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri">
+  
+  
+    <meta name="twitter:url" content="http://localhost:4000/pci-dss-kart/">
+  
+  
+    <meta name="twitter:description" content="Teknoloji ve yazılım üzerine yazılarımı paylaştığım blogum. Yazılım geliştirme, back-end ve front-end teknolojileri, Kotlin, JavaScript, React ve daha fazlası.
+">
+  
+  
+    <meta name="twitter:image:src" content="http://localhost:4000/anilelakas.github.io/assets/img/pci_dss_gereklilik.jpg">
+  
+
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/anilelakas.github.io/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/anilelakas.github.io/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/anilelakas.github.io/assets/css/main.css">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4711852592461565"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Alt reklam -->
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-client="ca-pub-4711852592461565"
+       data-ad-slot="4711852592461565 "
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/anilelakas.github.io/"><img src="/anilelakas.github.io/assets/img/anil-elakas.jpg" alt="Anıl Elakaş"></a>
+      </div>
+      <div class="author-name">Anıl Elakaş</div>
+      <p>I am a software developer focusing on back-end development, front-end development and data science. Always hungry to keep learning.</p>
+    </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4711852592461565"
+            crossorigin="anonymous"></script>
+    <!-- Alt reklam -->
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-client="ca-pub-4711852592461565"
+         data-ad-slot="4711852592461565 "
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        <!--
+          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+         -->
+        
+          <li class="github"><a href="http://github.com/anilelakas" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/anilelakas" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:anilelakas@hotmail.com.tr"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2025 &copy; Anıl Elakaş</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/anilelakas.github.io/assets/img/pci_dss_gereklilik.jpg alt="Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri</h1>
+        <div class="page-date"><span>2024, Apr 15&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>Günümüzde ödeme alışkanlıklarında önemli bir değişim gözlemlenmektedir. Yüksek miktarda nakit para taşımanın zorluğu, nakit para bulundurmak için Bankamatik’e gitme gerekliliği, giderek yaygınlaşan çevrimiçi alışveriş ve kart ile ödemede taksitlendirme gibi sebeplerden dolayı nakit para yerine ödeme aracı olarak kart kullanımında ciddi bir artış söz konusudur.</p>
+
+<p>Bankalararası Kart Merkezi (BKM) verilerine göre, 2023 yılı itibarıyla Türkiye’de kredi kartı sayısı 117,7 milyon, banka kartı sayısı 189,5 milyon ve ön ödemeli kart sayısı 90 milyon adettir. Toplam kart sayısı ise 397 milyon adettir[1]. Dünya genelinde ise kullanımdaki kredi kartı, banka kartı ve ön ödemeli kart sayılarının toplamı 2023 yılı itibariyle 26.71 Milyar adet olarak kayıtlara geçmiştir. [2]</p>
+
+<p>Türkiye Cumhuriyeti Merkez Bankası (TCMB) verilerine göre, Şekil 1’de gösterildiği gibi, Türkiye’de 2023 yılı boyunca yaklaşık 8 Trilyon Türk Lirası kartlı harcama yapılmıştır. Bu oran bir önceki yıla göre %100’ün üzerinde bir artış demektir.</p>
+
+<p style="text-align: center"><img src="/anilelakas.github.io/assets/img/kart_harcama.jpg" /></p>
+<p style="text-align: center">Şekil 1: Türkiye’de 2023 yılı boyunca yaklaşık 8 Trilyon Türk Lirası kartlı harcama yapıldı.</p>
+
+<p>Hem Türkiye’de hem de Dünya genelinde milyarlarca kartın kullanıldığı ve çok yüksek miktarlarda işlem hacmine sahip olan kartla ödeme sektöründe güvenlik konusu tahmin edileceği üzere çok önemlidir.</p>
+
+<p>Açılımı Payment Card Industry Data Security Standard olan, Türkçeye ise Ödeme Kartı Sektörü Veri Güvenliği Standardı olarak geçen PCI DSS, 2004 yılında dört büyük kredi kartı şirketi Visa, MasterCard, Discover ve American Express tarafından ortaklaşa oluşturulmuştur. Ödeme Kartı Sektörü Güvenlik Standartları Konseyi (Payment Card Industry Security Standards Council — PCI SSC) ise, Ödeme Kartı Sektörü Veri Güvenliği Standardı’nın devam eden gelişimini yönetmek amacıyla American Express, Discover Financial Services, JCB International, MasterCard ve Visa Inc. tarafından 2006 yılında kurulmuştur.</p>
+
+<p>PCI DSS, kredi kartı, banka kartı ve nakit kartı işlemlerinin güvenliğini sağlamayı ve kart sahiplerini kişisel bilgilerinin kötüye kullanılmasına karşı korumayı amaçlamaktadır. Kart bilgilerini işleyen, saklayan veya ileten tüm şirketlerin güvenli bir ortam oluşturmasını sağlamaya yönelik bir dizi gereksinimdir ve yaygın olarak kabul görmektedir.</p>
+
+<p style="text-align: center"><img src="/anilelakas.github.io/assets/img/pci_dss.jpg" /></p>
+<p style="text-align: center">Şekil 2 - PCI DSS [3]</p>
+
+<h2 id="pci-dss-uyumluluğu">PCI DSS Uyumluluğu</h2>
+
+<p>PCI DSS uyumluluğu, ödeme kartı işlemlerine dahil olan işletmelerin ve kuruluşların, kart sahiplerinin hassas bilgilerini korumak ve veri ihlallerini önlemek için belirlenen güvenlik standartlarını uygulamasını gerektirir. Bu uyumluluk, ödeme kartı markaları tarafından desteklenir ve sıkı denetimler ve cezai yaptırımlarla uygulanabilir. Ayrıca, işletmelerin itibarını korumak ve müşteri güvenini sağlamak için de önemlidir. PCI DSS uyumluluğu bir işletmenin bu standartlara uygunluğunu ifade eder.</p>
+
+<p>PCI SSC’ye göre, bir satıcının PCI uyumluluk kontrol listesinin bir parçası olarak tamamlaması gereken gereklilikler vardır. PCI DSS gereklilikleri Şekil 3’teki gibi gruplanmaktadır; Güvenli Ağ, Kart Sahibi Verilerinin Güvenliği, Güvenlik Açığı, Giriş (Erişim) Kontrolü, Ağ İzleme ve Test Etme, Bilgi Güvenliği ana başlıklarında gruplanmaktadır. [4]</p>
+
+<p style="text-align: center"><img src="/anilelakas.github.io/assets/img/pci_dss_gereklilik.jpg" /></p>
+<p style="text-align: center">Şekil 3: PCI DSS Gereklilikleri</p>
+
+<p>PCI DSS uyumluluğu için kontrol edilmesi gereken 12 ana gereksinim aşağıda listelenmiştir:</p>
+
+<p><strong>Güvenli Ağ</strong></p>
+
+<p>1.Güvenlik duvarlarını kullanın ve Bakımını yapın</p>
+
+<p>2.Uygun parola korumaları</p>
+
+<p><strong>Kart Sahibi Verilerinin Güvenliği</strong></p>
+
+<p>3.Kart sahini verilerini koruyun</p>
+
+<p>4.İletilen verileri şifreleyin</p>
+
+<p><strong>Güvenlik Açığı Yönetimi</strong></p>
+
+<p>5.Antivirüs kullanın ve bakımını yapın</p>
+
+<p>6.Düzgün güncellenmiş yazılım</p>
+
+<p><strong>Giriş (Erişim) Kontrolü</strong></p>
+
+<p>7.Veri erişimini kısıtlayın</p>
+
+<p>8.Erişim için benzersiz kimlikler oluşturun</p>
+
+<p>9.Fiziksel erişimi kısıtlayın</p>
+
+<p><strong>Ağ İzleme ve Test Etme</strong></p>
+
+<p>10.Erişim günlükleri oluşturun ve takibini yapın</p>
+
+<p>11.Güvenlik açıklarını tarayın ve test edin</p>
+
+<p><strong>Bilgi Güvenliği</strong></p>
+
+<p>12.Bilgi güvenliğiyle ilgili bir politika sürdürülmelidir</p>
+
+<h2 id="pci-dss-sertifikası-ve-uyumluluk-seviyesi">PCI DSS Sertifikası ve Uyumluluk Seviyesi</h2>
+
+<p>Sisteme dahil olmak için PCI DSS sertifikası adı verilen uygunluk onay formu doldurulmalıdır. Bu form uyarınca sisteme dahil olmak isteyen işyeri ya da e-ticaret şirketi sahipleri üç aylık periyotlarla gerçekleştirilen bir ağ taramasına tabi tutulmaktadır.</p>
+
+<p>PCI DSS sertifikası almak için başvurulan uygunluk onay formu değerlendirmesi şirketin özelliklerine değişiklik göstermektedir. Her şirketin ya da e-ticaret firmasının değerlendirmeye tabi tutulması esnasındaki belirleyici unsur, işlem hacmidir.</p>
+
+<p>PCI uyumluluğu, bir işletmenin yıllık olarak işlediği kredi kartı veya banka kartı işlemlerinin sayısına (işlem hacmine) göre Şekil 4’te gösterildiği gibi dört seviyeye ayrılmıştır. Sınıflandırma seviyesi, bir işletmenin uyumlu kalması için yapması gerekenleri belirler.</p>
+
+<p style="text-align: center"><img src="/anilelakas.github.io/assets/img/pci_dss_uyumluluk_seviye.jpg" /></p>
+<p style="text-align: center">Şekil 4: PCI DSS uyumluluk seviyesi</p>
+
+<p><strong>Seviye 1:</strong> Yılda altı milyondan fazla kredi kartı veya banka kartı işlemi gerçekleştiren satıcıları kapsar. Yetkili bir PCI denetçisi tarafından yılda bir kez iç denetime tabi tutulmaları gerekmektedir. Ayrıca, üç ayda bir Onaylı Tarama Satıcısı (Approved Scanning Vendor — ASV) tarafından PCI taramasına tabi tutulmaları gerekir.</p>
+
+<p><strong>Seviye 2:</strong> Yılda bir milyon ile altı milyon arası kredi kartı veya banka kartı işlemi gerçekleştiren satıcıları kapsar. Yılda bir kez Kendi Değerlendirme Anketi (Self-Assessment Questionnaire — SAQ) kullanarak bir değerlendirme tamamlamaları gerekmektedir. Ek olarak, üç ayda bir ASV tarafından PCI taramasına tabi tutulmaları gerekebilir.</p>
+
+<p><strong>Seviye 3:</strong> Yılda yirmi bin ile bir milyon arası e-ticaret işlemi gerçekleştiren satıcıları kapsar. İlgili SAQ kullanılarak yıllık bir değerlendirme tamamlamaları gerekmektedir. Ayrıca, üç ayda bir ASV tarafından PCI taramasına tabi tutulmaları gerekebilir.</p>
+
+<p><strong>Seviye 4:</strong> Yılda 20.000’den az e-ticaret işlemi veya maksimum bir milyon kredi kartı veya banka kartı işlemi gerçekleştiren satıcıları veya bir milyon gerçek dünya işlemi gerçekleştirenleri kapsar. İlgili SAQ kullanılarak yıllık bir değerlendirme tamamlanmalı ve üç ayda bir ASV tarafından PCI taramasına tabi tutulmaları gerekebilir.</p>
+
+<h2 id="sonuç">Sonuç</h2>
+<p>PCI DSS (Payment Card Industry Data Security Standard), ödeme kartı işlemlerinin güvenliğini sağlamak için belirlenen standartların neden önemli olduğunu beş madde ile açıklayacak olursak:</p>
+
+<ol>
+  <li><strong>Kart Sahiplerinin Güvenliği:</strong> PCI DSS, kart sahiplerinin hassas bilgilerini korumak için gerekli önlemleri almayı zorunlu kılar. Bu, kart sahiplerinin bilgilerinin kötü niyetli kullanımını önler ve güvenilirliklerini artırır.</li>
+  <li><strong>Dolandırıcılığın Önlenmesi:</strong> Standartlar, işletmelerin güvenlik açıklarını kapatmasını sağlayarak dolandırıcılığı önler. Veri ihlalleri ve kart dolandırıcılığı gibi potansiyel riskleri azaltır.</li>
+  <li><strong>Kurumsal İtibarın ve Güvenin Korunması:</strong> PCI uyumluluğu, işletmelerin müşterilerine güvenilir bir alışveriş ortamı sağladığını gösterir. Bu da müşteri sadakatini artırır ve işletmenin itibarını korur.</li>
+  <li><strong>Yasal Yükümlülüklerin Karşılanması:</strong> PCI uyumluluğu, ödeme kartı şirketlerinin ve devlet düzenleyicilerinin belirlediği yasal gereksinimleri yerine getirmeyi sağlar. Bu da potansiyel cezalardan kaçınmaya yardımcı olur.</li>
+  <li><strong>Maliyet ve Verimlilik:</strong> PCI uyumluluğu, veri ihlallerinin ve dolandırıcılığın yol açabileceği maliyetleri önler. Ayrıca, güvenlik açıklarının tespiti ve giderilmesi sürecinde verimliliği artırır.</li>
+</ol>
+
+<p>Bu nedenlerden dolayı, PCI DSS özellikle ödeme kartı işlemlerinde güvenlik, uyumluluk açısından ve günümüzde internet ve teknolojinin devamlı gelişmesine bağlı olarak ortaya çıkan sanal dolandırıcılığın engellenmesi için oldukça önemlidir.</p>
+
+<h2 id="kaynaklar">Kaynaklar:</h2>
+<p>[1] <a href="https://bkm.com.tr/kart-sayilari/">https://bkm.com.tr/kart-sayilari/</a></p>
+
+<p>[2] <a href="https://www.statista.com/statistics/1080756/number-payment-cards-in-circulation-worldwide/">https://www.statista.com/statistics/1080756/number-payment-cards-in-circulation-worldwide/</a></p>
+
+<p>[3] <a href="https://www.pcitelecom.co.uk/what-is-pci-dss-compliance-the-basics/">https://www.pcitelecom.co.uk/what-is-pci-dss-compliance-the-basics/</a></p>
+
+<p>[4] <a href="https://www.pcisecuritystandards.org/pci_security/standards_overview">www.pcisecuritystandards.org</a></p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=Ödeme Kartları Endüstrisi Veri Güvenliği Standartları (PCI DSS) ile Güvenli Kart Ödemeleri&url=http://localhost:4000/pci-dss-kart/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/pci-dss-kart/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/pci-dss-kart/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/anilelakas.github.io/tags#Technology" class="tag">&#35; Technology</a>
+          
+            <a href="/anilelakas.github.io/tags#Banking" class="tag">&#35; Banking</a>
+          
+            <a href="/anilelakas.github.io/tags#Payment" class="tag">&#35; Payment</a>
+          
+            <a href="/anilelakas.github.io/tags#Credit Card" class="tag">&#35; Credit Card</a>
+          
+            <a href="/anilelakas.github.io/tags#PCI DSS" class="tag">&#35; PCI DSS</a>
+          
+            <a href="/anilelakas.github.io/tags#Digital Transformation" class="tag">&#35; Digital Transformation</a>
+          
+            <a href="/anilelakas.github.io/tags#Ödeme yöntemleri" class="tag">&#35; Ödeme yöntemleri</a>
+          
+            <a href="/anilelakas.github.io/tags#Kredi kartı" class="tag">&#35; Kredi kartı</a>
+          
+            <a href="/anilelakas.github.io/tags#Bankacılık" class="tag">&#35; Bankacılık</a>
+          
+            <a href="/anilelakas.github.io/tags#Finans" class="tag">&#35; Finans</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  <!-- Alt reklam -->
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-client="ca-pub-4711852592461565"
+       data-ad-slot="4711852592461565 "
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'Google Analytics', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
