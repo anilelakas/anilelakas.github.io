@@ -1,0 +1,88 @@
+---
+layout: post
+title: "Tesla vs Waymo: Robotaksi Yarışında İki Farklı Yol"
+date: 2025-09-01 09:00:20 +0300
+description: Tesla hız ve ölçeklenebilirliğe, Waymo ise güvenliğe odaklanıyor. Robotaksi savaşında ulaşımın geleceğini kim şekillendirecek? # Add post description (optional)
+img: robotaxi.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Yapay Zeka, Elektrikli Araçlar, Otonom Araçlar, Sürücüsüz Araçlar, Robotaxi, Tesla, Waymo, Elon Musk, Akıllı Ulaşım, AI in automotive, Tesla and Waymo, autonomous cars, Technology] # Add post tags (optional)
+---
+
+Otomotiv dünyası, elektrikli araçlarla başlayan dönüşümünü şimdi sürücüsüz taksiler ile bir üst seviyeye taşıyor. Robotaksiler, yapay zekâ, sensör teknolojileri ve otonom sürüş yazılımlarının birleşimiyle şehir içi ulaşımı yeniden tanımlamaya aday. Tesla’nın cesur ve hızlı ölçeklenebilir yaklaşımı ile Waymo’nun güvenlik odaklı, temkinli stratejisi bu yarışın en dikkat çekici iki örneğini oluşturuyor. Önümüzdeki yıllarda robotaksiler yalnızca teknolojiyi değil, şehir planlamasından toplu taşımaya kadar pek çok alanı kökten değiştirebilir.
+
+Otonom araç teknolojisi, elektrikli araçlarla birleşerek ulaşımın geleceğini yeniden şekillendiriyor. Bu alanda öne çıkan iki dev oyuncu var: Tesla ve Waymo. Her ikisi de sürücüsüz taksi (robotaksi) hizmetini hayata geçirmek için çalışıyor, ancak kullandıkları yöntemler birbirinden oldukça farklı. Bu farklılıklar, yalnızca teknolojinin değil, tüm otomotiv endüstrisinin geleceğini belirleyecek. 
+
+Peki, geleceğin şehirlerinde direksiyon kimde olacak: Tesla mı, Waymo mu?
+
+## Tesla’nın Hızlı ve Cesur Yaklaşımı ##
+
+<p style="text-align: center"><img src="{{site.baseurl}}/assets/img/tesla.jpg"></p>
+<p style="text-align: center">Şekil 1: Tesla Robotaxi</p>
+
+Tesla, Elon Musk’ın vizyonuyla birlikte kameralar ve yapay zekâ odaklı bir strateji izliyor. Yani araçlarını yönlendirmek için yüksek çözünürlüklü haritalara veya pahalı sensör ağlarına güvenmek yerine, insan gözüne benzer şekilde çalışan kamera sistemlerine güveniyor.
+
+- **Test alanı:** İlk robotaksi denemeleri Austin’de başladı.
+
+- **Hedef:** 2026’ya kadar milyonlarca sürücüsüz Tesla.
+
+- **Avantaj:** Daha düşük maliyet, daha hızlı ölçeklenebilirlik.
+
+- **Risk:** Teknolojinin güvenilirliği hâlâ tartışmalı.
+
+Eleştirmenler, Tesla’nın yönteminin kanıtlanmamış ve potansiyel olarak daha riskli olduğunu savunuyor. Ancak şirket, bir kez güvenlik sorunlarını aşarsa, çok daha hızlı yayılma kapasitesine sahip.
+
+## Waymo’nun Güvenlik Odaklı Stratejisi ##
+
+<p style="text-align: center"><img src="{{site.baseurl}}/assets/img/waymo.jpg"></p>
+<p style="text-align: center">Şekil 2: Waymo Robotaxi</p>
+
+Alphabet’in (Google’ın ana şirketi) çatısı altındaki Waymo, daha temkinli ve güvenliğe öncelik veren bir yol seçiyor.
+
+- **Haritalama ve sensörler:** Araçlar, lidar ve radar sensörleri ile destekleniyor, ayrıca yüksek çözünürlüklü haritalar kullanıyor.
+
+- **Operasyon:** Phoenix ve San Francisco gibi şehirlerde tam otonom robotaksi hizmeti veriyor.
+
+- **Avantaj:** Daha güvenilir ve regülasyonlara uyumlu.
+
+- **Dezavantaj:** Yavaş büyüme, yüksek maliyet.
+
+Waymo’nun yaklaşımı, kısa vadede daha güvenli ve gerçekçi görünüyor. Ancak ölçeklenmesi Tesla kadar hızlı olmayabilir.
+
+## Karşılaşılan Zorluklar ##
+
+Her iki şirketin de aşması gereken engeller var:
+
+- **Düzenleyici engeller:** Yerel yönetimler ve regülasyonlar robotaksi hizmetlerini sınırlayabiliyor.
+
+- **Kamu etkileşimi:** Otonom araçların polisle veya olağanüstü durumlarla (örneğin su baskını) karşılaştığında nasıl tepki verdiği hâlâ sorunlu.
+
+- **Güven sorunu:** Yolcuların bu hizmetlere güven duyması zaman alacak.
+
+<p style="text-align: center"><img src="{{site.baseurl}}/assets/img/robotaxi.jpg"></p>
+<p style="text-align: center">Şekil 3: Waymo ve Tesla Robotaxi</p>
+
+## Geleceğe Bakış ##
+
+Brad Templeton, neredeyse yirmi yıldır robotaksiler üzerine çalışıyor ve yazıyor. Waymo’nun ilk ekibinde yer alarak şirketin robotaksi stratejisinin şekillenmesine katkıda bulundu. Kaleme aldığı yazılar ve yaptığı konuşmalar, en önde gelen robotaksi şirketlerinin liderleri de dahil olmak üzere pek çok kişiye yol gösterdi. Templeton aynı zamanda FSD 12’ye sahip bir Tesla kullanıyor ve 15 yıl önce Elon Musk ile bir saatlik özel bir görüşme gerçekleştirerek onu robotaksilere yönelmeye ikna etmeye çalıştı. Tesla’nın bugün attığı adımların nedeni kendisi olmasa da, konunun her yönüne hâkim olduğunu rahatlıkla söyleyebiliriz.
+
+Kendisi son yazısında, Tesla'nın otonom sürüşü hayata geçirmek için önünde muhtemelen uzun bir yol olduğunu, ancak gerçek otonom sürüşü geliştiren şirketlerin bu noktadan ticarileşmeye hazır hale gelmelerinin en az 5 yıl sürdüğünü belirtiyor. Belki sektörün de ilerlemesiyle daha sonra gelenler bunu daha hızlı yapabileceğini, ancak bu bir gecede veya sadece bir yılda olmayacağını düşünüyor.
+
+Brad, Tesla'nın henüz yarışta olmadığını veya en iyi ihtimalle büyük oyuncular arasında son sırada olduğu sonucuna götürdüğünü belirtiyor. Otonom sürüşü hayata geçirebilirlerse, oyunda olacaklar ve bazı avantajlara sahip olacaklar, ancak yine de kat etmeleri gereken uzun bir yol olduğu fikrini savunuyor.
+
+Analistler de Brad Templeton gibi kısa vadede Waymo’nun önde olacağını düşünüyor. Ancak Tesla yazılımını olgunlaştırmayı başarırsa, 2028’den sonra liderliği ele geçirebilir.
+
+Sonuç olarak, **Tesla hız ve ölçeklenebilirliğe**, **Waymo ise güvenlik ve düzenleyici uyuma oynuyor**. Hangisinin kazanacağı sadece bu iki şirketi değil, şehirlerimizin ulaşım altyapısını da şekillendirecek.
+
+
+## Kaynaklar: ##
+[1] [https://sea.mashable.com/transportation/39271/tesla-expands-robotaxi-service-in-austin-again-now-covering-its-own-gigafactory](https://sea.mashable.com/transportation/39271/tesla-expands-robotaxi-service-in-austin-again-now-covering-its-own-gigafactory)
+
+[2] [https://www.theverge.com/2025/8/15/23832992/tesla-robotaxi-service-austin-expansion-elon-musk](https://www.theverge.com/2025/8/15/23832992/tesla-robotaxi-service-austin-expansion-elon-musk)
+
+[3] [https://qz.com/waymo-driverless-robotaxi-100k-rides-a-week-1851627113](https://qz.com/waymo-driverless-robotaxi-100k-rides-a-week-1851627113)
+
+[4] [https://www.bloomberg.com/news/articles/2025-07-17/waymo-expands-in-austin-after-tesla-launches-robotaxi-competitor](https://www.bloomberg.com/news/articles/2025-07-17/waymo-expands-in-austin-after-tesla-launches-robotaxi-competitor)
+
+[5] [https://www.reuters.com/business/autos-transportation/how-tesla-waymos-radically-different-robotaxi-approaches-will-shape-industry-2025-08-28/?utm_source=chatgpt.com](https://www.reuters.com/business/autos-transportation/how-tesla-waymos-radically-different-robotaxi-approaches-will-shape-industry-2025-08-28/?utm_source=chatgpt.com)
+
+[6] [https://www.forbes.com/sites/bradtempleton/2025/07/09/the-deep-story-on-the-waymo-vs-tesla-robotaxi-battle-with-video/](https://www.forbes.com/sites/bradtempleton/2025/07/09/the-deep-story-on-the-waymo-vs-tesla-robotaxi-battle-with-video/)
