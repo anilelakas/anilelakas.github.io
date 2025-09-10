@@ -3,7 +3,7 @@ layout: post
 title: API Bankacılığı
 date: 2024-08-20 09:00:20 +0300
 description: # Add post description (optional)
-img: api_banking.jpg # Add image post (optional)
+img: api-banking-header.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Technology, Banking,  API, API BANKING, BAAS, Digital Transformation, Bankacılık, Finans] # Add post tags (optional)
 ---
